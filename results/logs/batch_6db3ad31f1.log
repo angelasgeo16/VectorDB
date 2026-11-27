@@ -1,0 +1,17 @@
+$ python3 -m scripts.step10_b1 --dataset full --level high
+B1 | full high (eps=194.15) | 10,000 x vs 10,000,000 y | bucket at a time
+    bucket 1,001 / 10,000  (131 s, 131 MB read)
+    bucket 2,001 / 10,000  (255 s, 256 MB read)
+    bucket 3,001 / 10,000  (374 s, 379 MB read)
+    bucket 4,001 / 10,000  (499 s, 505 MB read)
+    bucket 5,001 / 10,000  (631 s, 641 MB read)
+    bucket 6,001 / 10,000  (759 s, 771 MB read)
+    bucket 7,001 / 10,000  (885 s, 899 MB read)
+    bucket 8,001 / 10,000  (1007 s, 1,026 MB read)
+    bucket 9,001 / 10,000  (1135 s, 1,152 MB read)
+    pruning: 7,312.8 candidate buckets per x (of 10,000), 7,019,043 vectors checked per x (70.2% of all pairs)
+    pairs: 10,819,679 (ground truth 10,819,679)  recall 1.000000  precision 1.000000
+    disk: 1,280.0 MB read in 10,000 requests (1.00x the size of Y); 10,000 of 10,000 buckets read
+    time: plan 1.0 s, io 9.6 s, verify 1248.8 s, total 1259.6 s
+    peak RSS 220 MB (cap 512 MB)
+    appended to /Users/angelageorge/Desktop/UIC/SEM3/VectorDB/researchProject/results/runs.csv

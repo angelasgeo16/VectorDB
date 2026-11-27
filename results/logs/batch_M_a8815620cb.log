@@ -1,0 +1,19 @@
+$ python3 -m scripts.step13_b3 --dataset full --level low --M 32
+B3 | full low (eps=92.73) | 10,000 x vs 10,000,000 y | M=32 (340 MB codes+residuals) | pruning exact | batch (bucket at a time) | reads: bucket
+    filter 1,000 / 10,000 queries  (35 s, 64,622 Maybe so far)
+    filter 2,000 / 10,000 queries  (70 s, 97,274 Maybe so far)
+    filter 3,000 / 10,000 queries  (104 s, 140,765 Maybe so far)
+    filter 4,000 / 10,000 queries  (139 s, 181,425 Maybe so far)
+    filter 5,000 / 10,000 queries  (172 s, 238,915 Maybe so far)
+    filter 6,000 / 10,000 queries  (207 s, 314,698 Maybe so far)
+    filter 7,000 / 10,000 queries  (242 s, 380,378 Maybe so far)
+    filter 8,000 / 10,000 queries  (276 s, 458,801 Maybe so far)
+    filter 9,000 / 10,000 queries  (310 s, 541,535 Maybe so far)
+    filter 10,000 / 10,000 queries  (345 s, 589,164 Maybe so far)
+    pruning: 1,571.1 candidate buckets per x (of 10,000), 1,614,313 codes scanned per x (16.1% of all pairs)
+    labels: 9,142 Yes, 589,164 Maybe (0.00059% of all pairs), 589,164 verified on disk
+    pairs: 87,715 (ground truth 87,715)  recall 1.000000  precision 1.000000
+    disk: 378.9 MB read in 1,658 requests (0.296x the size of Y)
+    time: plan 2.7 s, filter 341.5 s, io 0.4 s, verify 0.0 s, total 345.2 s
+    peak RSS 511 MB (cap 512 MB)
+    appended to /Users/angelageorge/Desktop/UIC/SEM3/VectorDB/researchProject/results/runs.csv

@@ -1,0 +1,19 @@
+$ python3 -m scripts.step13_b3 --level mid --M 16 --loop query --order random --dataset full --n-queries 1000
+B3 | full mid (eps=131.29) | 1,000 x vs 10,000,000 y | M=16 (180 MB codes+residuals) | pruning exact | query at a time, order random | reads: bucket | cache 120.0 MB belady
+    filter 100 / 1,000 queries  (7 s, 119,881 Maybe so far)
+    filter 200 / 1,000 queries  (14 s, 329,303 Maybe so far)
+    filter 300 / 1,000 queries  (21 s, 519,590 Maybe so far)
+    filter 400 / 1,000 queries  (28 s, 609,658 Maybe so far)
+    filter 500 / 1,000 queries  (34 s, 778,852 Maybe so far)
+    filter 600 / 1,000 queries  (41 s, 831,356 Maybe so far)
+    filter 700 / 1,000 queries  (47 s, 919,523 Maybe so far)
+    filter 800 / 1,000 queries  (54 s, 1,028,652 Maybe so far)
+    filter 900 / 1,000 queries  (61 s, 1,251,160 Maybe so far)
+    filter 1,000 / 1,000 queries  (68 s, 1,396,761 Maybe so far)
+    pruning: 3,378.6 candidate buckets per x (of 10,000), 3,307,111 codes scanned per x (33.1% of all pairs)
+    labels: 2,396 Yes, 1,396,761 Maybe (0.01397% of all pairs), 1,396,761 verified on disk
+    pairs: 95,175 (ground truth 95,175)  recall 1.000000  precision 1.000000
+    disk: 2,683.3 MB read in 14,820 requests (2.096x the size of Y); cache hit rate 0.440
+    time: plan 0.3 s, filter 67.1 s, io 3.8 s, verify 0.2 s, total 71.7 s
+    peak RSS 487 MB (cap 512 MB)
+    appended to /Users/angelageorge/Desktop/UIC/SEM3/VectorDB/researchProject/results/runs.csv

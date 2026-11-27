@@ -1,0 +1,144 @@
+{
+  "n_x": 1000,
+  "n_y": 1000000,
+  "eps_dev": {
+    "low": {
+      "eps": 133.28915934913837,
+      "eps2": 17766
+    },
+    "mid": {
+      "eps": 198.5623327824288,
+      "eps2": 39427
+    },
+    "high": {
+      "eps": 280.178514522438,
+      "eps2": 78500
+    }
+  },
+  "per_M": {
+    "8": {
+      "low": {
+        "true_matches": 10002,
+        "yes": 1,
+        "maybe": 1232676,
+        "no": 998767323,
+        "maybe_per_true": 123.24295140971806,
+        "maybe_frac_all": 0.001232676,
+        "yes_per_true": 9.998000399920016e-05,
+        "maybe_per_x_mean": 1232.676,
+        "maybe_per_x_max": 25050,
+        "maybe_x_with_match": 477436,
+        "maybe_x_without_match": 755240
+      },
+      "mid": {
+        "true_matches": 98919,
+        "yes": 4301,
+        "maybe": 15749250,
+        "no": 984246449,
+        "maybe_per_true": 159.21359900524672,
+        "maybe_frac_all": 0.01574925,
+        "yes_per_true": 0.0434800190054489,
+        "maybe_per_x_mean": 15749.25,
+        "maybe_per_x_max": 97170,
+        "maybe_x_with_match": 6370234,
+        "maybe_x_without_match": 9379016
+      },
+      "high": {
+        "true_matches": 990322,
+        "yes": 70230,
+        "maybe": 168001792,
+        "no": 831927978,
+        "maybe_per_true": 169.64360278778014,
+        "maybe_frac_all": 0.168001792,
+        "yes_per_true": 0.07091632822455726,
+        "maybe_per_x_mean": 168001.792,
+        "maybe_per_x_max": 579124,
+        "maybe_x_with_match": 154989842,
+        "maybe_x_without_match": 13011950
+      }
+    },
+    "16": {
+      "low": {
+        "true_matches": 10002,
+        "yes": 266,
+        "maybe": 141772,
+        "no": 999857962,
+        "maybe_per_true": 14.174365126974605,
+        "maybe_frac_all": 0.000141772,
+        "yes_per_true": 0.02659468106378724,
+        "maybe_per_x_mean": 141.772,
+        "maybe_per_x_max": 8410,
+        "maybe_x_with_match": 115421,
+        "maybe_x_without_match": 26351
+      },
+      "mid": {
+        "true_matches": 98919,
+        "yes": 13253,
+        "maybe": 1372618,
+        "no": 998614129,
+        "maybe_per_true": 13.876181522255584,
+        "maybe_frac_all": 0.001372618,
+        "yes_per_true": 0.13397830548226328,
+        "maybe_per_x_mean": 1372.618,
+        "maybe_per_x_max": 26379,
+        "maybe_x_with_match": 1079215,
+        "maybe_x_without_match": 293403
+      },
+      "high": {
+        "true_matches": 990322,
+        "yes": 171428,
+        "maybe": 24260976,
+        "no": 975567596,
+        "maybe_per_true": 24.498068305056336,
+        "maybe_frac_all": 0.024260976,
+        "yes_per_true": 0.17310329367619826,
+        "maybe_per_x_mean": 24260.976,
+        "maybe_per_x_max": 125775,
+        "maybe_x_with_match": 23257278,
+        "maybe_x_without_match": 1003698
+      }
+    },
+    "32": {
+      "low": {
+        "true_matches": 10002,
+        "yes": 2611,
+        "maybe": 33530,
+        "no": 999963859,
+        "maybe_per_true": 3.3523295340931814,
+        "maybe_frac_all": 3.353e-05,
+        "yes_per_true": 0.2610477904419116,
+        "maybe_per_x_mean": 33.53,
+        "maybe_per_x_max": 3656,
+        "maybe_x_with_match": 32154,
+        "maybe_x_without_match": 1376
+      },
+      "mid": {
+        "true_matches": 98919,
+        "yes": 37925,
+        "maybe": 295059,
+        "no": 999667016,
+        "maybe_per_true": 2.982834440299639,
+        "maybe_frac_all": 0.000295059,
+        "yes_per_true": 0.38339449448538704,
+        "maybe_per_x_mean": 295.059,
+        "maybe_per_x_max": 10941,
+        "maybe_x_with_match": 282915,
+        "maybe_x_without_match": 12144
+      },
+      "high": {
+        "true_matches": 990322,
+        "yes": 388117,
+        "maybe": 4305513,
+        "no": 995306370,
+        "maybe_per_true": 4.347588966013075,
+        "maybe_frac_all": 0.004305513,
+        "yes_per_true": 0.3919099040514095,
+        "maybe_per_x_mean": 4305.513,
+        "maybe_per_x_max": 47085,
+        "maybe_x_with_match": 4260007,
+        "maybe_x_without_match": 45506
+      }
+    }
+  },
+  "gate_warning": null
+}

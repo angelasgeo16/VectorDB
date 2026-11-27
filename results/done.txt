@@ -1,0 +1,45 @@
+scripts.step10_b1 --level mid --loop query --order id --dataset full --n-queries 1000
+scripts.step10_b1 --level mid --loop query --order mst --dataset full --n-queries 1000
+scripts.step10_b1 --level mid --loop query --order mst --cache-policy lru --dataset full --n-queries 1000
+scripts.step13_b3 --level mid --M 16 --loop query --order id --dataset full --n-queries 1000
+scripts.step13_b3 --level mid --M 16 --loop query --order random --dataset full --n-queries 1000
+scripts.step13_b3 --level mid --M 16 --loop query --order mst --dataset full --n-queries 1000
+scripts.step13_b3 --level mid --M 16 --loop query --order mst --cache-policy lru --dataset full --n-queries 1000
+scripts.step13_b3 --level mid --M 16 --loop query --order mst --read-policy page --dataset full --n-queries 1000
+scripts.step13_b3 --level mid --M 8 --loop query --order mst --dataset full --n-queries 1000
+scripts.step13_b3 --level mid --M 32 --loop query --order mst --dataset full --n-queries 1000
+scripts.step13_b3 --level mid --M 16 --loop query --order mst --pruning q95 --dataset full --n-queries 1000
+scripts.step10_b1 --level low --loop query --order mst --dataset full --n-queries 1000
+scripts.step13_b3 --level low --M 16 --loop query --order mst --dataset full --n-queries 1000
+scripts.step10_b1 --level high --loop query --order mst --dataset full --n-queries 1000
+scripts.step13_b3 --level high --M 16 --loop query --order mst --dataset full --n-queries 1000
+scripts.step10_b1 --level mid --loop query --order mst --cache-mb 188 --cap-mb 400 --dataset full --n-queries 1000
+scripts.step13_b3 --level mid --M 16 --loop query --order mst --cache-mb 8 --cap-mb 400 --dataset full --n-queries 1000
+scripts.step10_b1 --level mid --loop query --order mst --cache-mb 300 --cap-mb 512 --dataset full --n-queries 1000
+scripts.step13_b3 --level mid --M 16 --loop query --order mst --cache-mb 120 --cap-mb 512 --dataset full --n-queries 1000
+scripts.step10_b1 --level mid --loop query --order mst --cache-mb 556 --cap-mb 768 --dataset full --n-queries 1000
+scripts.step13_b3 --level mid --M 16 --loop query --order mst --cache-mb 376 --cap-mb 768 --dataset full --n-queries 1000
+scripts.step10_b1 --dataset full --level low
+scripts.step13_b3 --dataset full --level low --M 16
+scripts.step13_b3 --dataset full --level low --M 16 --read-policy page
+scripts.step13_b3 --dataset full --level low --M 16 --system B2
+scripts.step10_b1 --dataset full --level mid
+scripts.step13_b3 --dataset full --level mid --M 16
+scripts.step13_b3 --dataset full --level mid --M 16 --read-policy page
+scripts.step13_b3 --dataset full --level mid --M 16 --system B2
+scripts.step10_b1 --dataset full --level high
+scripts.step13_b3 --dataset full --level high --M 16
+scripts.step13_b3 --dataset full --level high --M 16 --read-policy page
+scripts.step13_b3 --dataset full --level high --M 16 --system B2
+scripts.step13_b3 --dataset full --level low --M 8
+scripts.step13_b3 --dataset full --level low --M 32
+scripts.step13_b3 --dataset full --level mid --M 8
+scripts.step13_b3 --dataset full --level mid --M 32
+scripts.step13_b3 --dataset full --level high --M 8
+scripts.step13_b3 --dataset full --level high --M 32
+scripts.step13_b3 --dataset full --level low --M 16 --pruning q95
+scripts.step13_b3 --dataset full --level low --M 16 --pruning q99
+scripts.step13_b3 --dataset full --level mid --M 16 --pruning q95
+scripts.step13_b3 --dataset full --level mid --M 16 --pruning q99
+scripts.step13_b3 --dataset full --level high --M 16 --pruning q95
+scripts.step13_b3 --dataset full --level high --M 16 --pruning q99

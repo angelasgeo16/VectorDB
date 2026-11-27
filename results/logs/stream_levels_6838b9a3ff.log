@@ -1,0 +1,18 @@
+$ python3 -m scripts.step10_b1 --level high --loop query --order mst --dataset full --n-queries 1000
+B1 | full high (eps=194.15) | 1,000 x vs 10,000,000 y | query at a time, mst, 300 MB belady
+    100 / 1,000 queries  (108 s, 57,880 MB read)
+    200 / 1,000 queries  (215 s, 115,467 MB read)
+    300 / 1,000 queries  (334 s, 180,729 MB read)
+    400 / 1,000 queries  (445 s, 241,349 MB read)
+    500 / 1,000 queries  (549 s, 299,117 MB read)
+    600 / 1,000 queries  (657 s, 359,341 MB read)
+    700 / 1,000 queries  (769 s, 421,389 MB read)
+    800 / 1,000 queries  (878 s, 480,422 MB read)
+    900 / 1,000 queries  (989 s, 539,872 MB read)
+    1,000 / 1,000 queries  (1097 s, 597,800 MB read)
+    pruning: 7,304.3 candidate buckets per x (of 10,000), 7,010,300 vectors checked per x (70.1% of all pairs)
+    pairs: 903,115 (ground truth 903,115)  recall 1.000000  precision 1.000000
+    disk: 597,799.7 MB read in 4,048,180 requests (467.03x the size of Y); cache hit rate 0.446
+    time: plan 0.2 s, io 935.7 s, verify 145.4 s, total 1098.0 s
+    peak RSS 1030 MB (cap 512 MB)  *** OVER CAP ***
+    appended to /Users/angelageorge/Desktop/UIC/SEM3/VectorDB/researchProject/results/runs.csv

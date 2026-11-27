@@ -1,0 +1,290 @@
+[
+  {
+    "centers": "random",
+    "n_buckets": 1000,
+    "radius": "max",
+    "median_radius": 416.3568179857108,
+    "bucket_size_max": 5925,
+    "levels": {
+      "low": {
+        "pairs_kept": 0.616900357,
+        "buckets_per_x": 624.266,
+        "recall": 1.0
+      },
+      "mid": {
+        "pairs_kept": 0.92198463,
+        "buckets_per_x": 936.723,
+        "recall": 1.0
+      },
+      "high": {
+        "pairs_kept": 0.998543288,
+        "buckets_per_x": 999.205,
+        "recall": 1.0
+      }
+    }
+  },
+  {
+    "centers": "random",
+    "n_buckets": 1000,
+    "radius": "q99",
+    "median_radius": 397.24802913014264,
+    "bucket_size_max": 5925,
+    "levels": {
+      "low": {
+        "pairs_kept": 0.46133182,
+        "buckets_per_x": 485.726,
+        "recall": 1.0
+      },
+      "mid": {
+        "pairs_kept": 0.83060827,
+        "buckets_per_x": 866.629,
+        "recall": 1.0
+      },
+      "high": {
+        "pairs_kept": 0.988278302,
+        "buckets_per_x": 994.416,
+        "recall": 1.0
+      }
+    }
+  },
+  {
+    "centers": "random",
+    "n_buckets": 1000,
+    "radius": "q95",
+    "median_radius": 380.5364632034066,
+    "bucket_size_max": 5925,
+    "levels": {
+      "low": {
+        "pairs_kept": 0.356313074,
+        "buckets_per_x": 377.259,
+        "recall": 1.0
+      },
+      "mid": {
+        "pairs_kept": 0.741173693,
+        "buckets_per_x": 784.941,
+        "recall": 1.0
+      },
+      "high": {
+        "pairs_kept": 0.970617962,
+        "buckets_per_x": 985.183,
+        "recall": 1.0
+      }
+    }
+  },
+  {
+    "centers": "random",
+    "n_buckets": 4000,
+    "radius": "max",
+    "median_radius": 380.2301933536428,
+    "bucket_size_max": 1718,
+    "levels": {
+      "low": {
+        "pairs_kept": 0.37940072,
+        "buckets_per_x": 1539.224,
+        "recall": 1.0
+      },
+      "mid": {
+        "pairs_kept": 0.762422579,
+        "buckets_per_x": 3147.976,
+        "recall": 1.0
+      },
+      "high": {
+        "pairs_kept": 0.979252008,
+        "buckets_per_x": 3953.788,
+        "recall": 1.0
+      }
+    }
+  },
+  {
+    "centers": "random",
+    "n_buckets": 4000,
+    "radius": "q99",
+    "median_radius": 371.0181936086816,
+    "bucket_size_max": 1718,
+    "levels": {
+      "low": {
+        "pairs_kept": 0.302832464,
+        "buckets_per_x": 1302.71,
+        "recall": 1.0
+      },
+      "mid": {
+        "pairs_kept": 0.681274306,
+        "buckets_per_x": 2917.012,
+        "recall": 1.0
+      },
+      "high": {
+        "pairs_kept": 0.957048095,
+        "buckets_per_x": 3909.283,
+        "recall": 1.0
+      }
+    }
+  },
+  {
+    "centers": "random",
+    "n_buckets": 4000,
+    "radius": "q95",
+    "median_radius": 355.64659424702194,
+    "bucket_size_max": 1718,
+    "levels": {
+      "low": {
+        "pairs_kept": 0.223508634,
+        "buckets_per_x": 962.794,
+        "recall": 1.0
+      },
+      "mid": {
+        "pairs_kept": 0.579470527,
+        "buckets_per_x": 2519.979,
+        "recall": 1.0
+      },
+      "high": {
+        "pairs_kept": 0.921944834,
+        "buckets_per_x": 3817.812,
+        "recall": 1.0
+      }
+    }
+  },
+  {
+    "centers": "kmeans",
+    "n_buckets": 1000,
+    "radius": "max",
+    "median_radius": 354.46786785576035,
+    "bucket_size_max": 3758,
+    "levels": {
+      "low": {
+        "pairs_kept": 0.644528537,
+        "buckets_per_x": 681.241,
+        "recall": 1.0
+      },
+      "mid": {
+        "pairs_kept": 0.916049821,
+        "buckets_per_x": 941.328,
+        "recall": 1.0
+      },
+      "high": {
+        "pairs_kept": 0.994674918,
+        "buckets_per_x": 997.67,
+        "recall": 1.0
+      }
+    }
+  },
+  {
+    "centers": "kmeans",
+    "n_buckets": 1000,
+    "radius": "q99",
+    "median_radius": 330.9872888863442,
+    "bucket_size_max": 3758,
+    "levels": {
+      "low": {
+        "pairs_kept": 0.480309898,
+        "buckets_per_x": 517.277,
+        "recall": 1.0
+      },
+      "mid": {
+        "pairs_kept": 0.830038946,
+        "buckets_per_x": 869.979,
+        "recall": 1.0
+      },
+      "high": {
+        "pairs_kept": 0.976807596,
+        "buckets_per_x": 988.975,
+        "recall": 1.0
+      }
+    }
+  },
+  {
+    "centers": "kmeans",
+    "n_buckets": 1000,
+    "radius": "q95",
+    "median_radius": 313.61053369840204,
+    "bucket_size_max": 3758,
+    "levels": {
+      "low": {
+        "pairs_kept": 0.367604383,
+        "buckets_per_x": 399.049,
+        "recall": 1.0
+      },
+      "mid": {
+        "pairs_kept": 0.746395105,
+        "buckets_per_x": 791.859,
+        "recall": 1.0
+      },
+      "high": {
+        "pairs_kept": 0.956092163,
+        "buckets_per_x": 976.528,
+        "recall": 1.0
+      }
+    }
+  },
+  {
+    "centers": "kmeans",
+    "n_buckets": 4000,
+    "radius": "max",
+    "median_radius": 327.8390970383579,
+    "bucket_size_max": 1407,
+    "levels": {
+      "low": {
+        "pairs_kept": 0.403448996,
+        "buckets_per_x": 1777.274,
+        "recall": 1.0
+      },
+      "mid": {
+        "pairs_kept": 0.778499154,
+        "buckets_per_x": 3315.017,
+        "recall": 1.0
+      },
+      "high": {
+        "pairs_kept": 0.972352896,
+        "buckets_per_x": 3948.303,
+        "recall": 1.0
+      }
+    }
+  },
+  {
+    "centers": "kmeans",
+    "n_buckets": 4000,
+    "radius": "q99",
+    "median_radius": 316.27392398539035,
+    "bucket_size_max": 1407,
+    "levels": {
+      "low": {
+        "pairs_kept": 0.325672318,
+        "buckets_per_x": 1470.467,
+        "recall": 1.0
+      },
+      "mid": {
+        "pairs_kept": 0.704357643,
+        "buckets_per_x": 3064.49,
+        "recall": 1.0
+      },
+      "high": {
+        "pairs_kept": 0.948617997,
+        "buckets_per_x": 3900.258,
+        "recall": 1.0
+      }
+    }
+  },
+  {
+    "centers": "kmeans",
+    "n_buckets": 4000,
+    "radius": "q95",
+    "median_radius": 299.8638859667331,
+    "bucket_size_max": 1407,
+    "levels": {
+      "low": {
+        "pairs_kept": 0.237476835,
+        "buckets_per_x": 1085.707,
+        "recall": 1.0
+      },
+      "mid": {
+        "pairs_kept": 0.603492445,
+        "buckets_per_x": 2674.525,
+        "recall": 1.0
+      },
+      "high": {
+        "pairs_kept": 0.91657469,
+        "buckets_per_x": 3819.793,
+        "recall": 1.0
+      }
+    }
+  }
+]
